@@ -1,0 +1,62 @@
+{
+  "name": "create-lah-app",
+  "version": "0.1.0",
+  "description": "create-react-app from lah",
+  "keywords": [
+    "react",
+    "vite"
+  ],
+  "author": {
+    "name": "JungHyun Lah",
+    "email": "leahincom@gmail.com",
+    "url": "https://leahin.xyz"
+  },
+  "bin": {
+    "create-lah-app": "./bin/generate-app.js"
+  },
+  "bugs": {
+    "url": "https://github.com/leahincom/create-lah-app/issues"
+  },
+  "homepage": "https://github.com/leahincom/create-lah-app#readme",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:leahincom/create-lah-app.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --outDir ./dist"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix --ignore-path .gitignore",
+    "*.json": "eslint --fix --ignore-path .gitignore",
+    "*.ts": "eslint --fix --ignore-path .gitignore",
+    "*.tsx": "eslint --fix --ignore-path .gitignore"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^3.1.0",
+    "vite": "^4.1.1",
+    "@types/react": "^18.0.27",
+    "@types/react-dom": "^18.0.10",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.13.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint": "^8.22.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-json-format": "^2.0.1",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0",
+    "husky": "^8.0.0",
+    "lint-staged": "^13.1.0",
+    "prettier": "^2.8.3",
+    "typescript": "^4.9.4",
+    "@vanilla-extract/vite-plugin": "^3.8.0"
+  }
+}

@@ -1,0 +1,5 @@
+/.vscode/*.json                             linguist-language=JSON5
+
+/.yarn/**                                   linguist-vendored
+
+/.pnp.*                                     binary linguist-vendored
